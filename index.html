@@ -345,13 +345,13 @@
     var newSlider;
     var sliderInt;
 
-    var span = document.getElementsByClassName("prev-button");
+    var button = document.getElementsByClassName("prev-button");
     span.onclick = function() {
       newSlider = sliderInt + 1;
       showNextSlide(newSlider);
     };
 
-    var span = document.getElementsByClassName("next-button");
+    var button = document.getElementsByClassName("next-button");
     span.onclick = function () {
       newSlider = sliderInt - 1;
       showNextSlide(newSlider);
