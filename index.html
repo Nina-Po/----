@@ -77,6 +77,8 @@
           <span class="close">&times;</span>
           <img class="modal-content" id="img01" />
           <div id="caption"></div>
+          <button class="prev-button" aria-label="Посмотреть предыдущий слайд">&lt;</button>
+                      <button class="next-button" aria-label="Посмотреть следующий слайд">&gt</button>
         </div>
         <!-- ________________________________________________________________ -->
 
@@ -259,8 +261,7 @@
                           scalable="150px"
                         />
                       </div>
-                      <button class="prev-button" aria-label="Посмотреть предыдущий слайд">&lt;</button>
-                      <button class="next-button" aria-label="Посмотреть следующий слайд">&gt</button>
+                      
                     </div>
 
                     
@@ -341,8 +342,8 @@
     };
     
 
-    var newSlider
-    var sliderInt
+    var newSlider;
+    var sliderInt;
 
     var span = document.getElementsByClassName("prev-button");
     span.onclick = function() {
